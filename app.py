@@ -11,9 +11,9 @@ from linebot.models import *
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('8gJCs4UU2pCyEeWKiGM5H1goheoUCKIz362oIhO3Jr1jZFq4lG/OsRMEKCevFHa32E5FwXWmrNvVf2GowlG5xnCpHK9CzNa+7/d1U1isJkJOsVFCtR1egXyg9dHJOF4teGvK3UfA12VZg/Sokgqx6QdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('N9Mkh2LWR7Yk62DKXf83OLW8Kubyv4gWjYNhJsP15pIyqcsxgr/uTTFOsFiq7SDdQksZjfyBbGRXUhpywRzIMDRxDlfS2Q4E1EEYWHZX1iZ4xXi2LTGYRKDE7QV7AtOAZ+TcI/LjUdgu5IC7bHEIQQdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
-handler = WebhookHandler('db4369800ec743d6d3220de2f0b81868')
+handler = WebhookHandler('7db431691746e4fecfb09baca6d5dc74')
 
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
