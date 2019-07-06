@@ -1,3 +1,7 @@
+import sys
+import datetime
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials as SAC
 from flask import Flask, request, abort
 
 from linebot import (
@@ -34,8 +38,31 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     try:
-        message = TextSendMessage(text=event.message.text)
-        line_bot_api.reply_message(event.reply_token, message)
+        # message = TextSendMessage(text=event.message.text)
+        # line_bot_api.reply_message(event.reply_token, message)
+
+        if event.message.text != "":
+            line_bot_api.reply_message(event.reply_token,TextSendMessage(text="紀錄成功"))
+            pass
+            #GDriveJSON就輸入下載下來Json檔名稱
+            #GSpreadSheet是google試算表名稱
+            GDriveJSON = 'MasterFun-9e0316c16434.json'
+            GSpreadSheet = '流行語資料庫'
+            while True:
+                try:
+                    scope = ['https://spreadsheets.google.com/feeds']
+                    key = SAC.from_json_keyfile_name(GDriveJSON, scope)
+                    gc = gspread.authorize(key)
+                    worksheet = gc.open(GSpreadSheet).sheet1
+                except Exception as ex:
+                    print('無法連線Google試算表', ex)
+                    sys.exit(1)
+                textt=""
+                textt+=event.message.text
+                if textt!="":
+                    worksheet.append_row((datetime.datetime.now(), textt))
+                    print('新增一列資料到試算表' ,GSpreadSheet)
+                    return textt          
         # Button(event)
         # Reply(event)
         # line_bot_api.push_message("U64ed76c0eed306e3050055c90acca990", TextSendMessage(text=event.source.user_id))

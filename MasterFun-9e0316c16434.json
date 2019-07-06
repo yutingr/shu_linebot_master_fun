@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "masterfun",
+  "private_key_id": "9e0316c16434b87d83ac3730dd9fc0e8b18bfd0a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDM6380lIJJBxld\nOzHBZvkwqDWedoooWAsEOY4yOKx0n61qWKUvz7oW8hevXNOCHABUU8H3G1X1amZu\nyxQpBRq38ouuHxY4TG0LULngZvSlKeXjlB7MjYxMbTZ8Ya2WcwudzHzMLzj2cSIe\n0xkTChQbjZBkwvcOMRR9Ck8byuZj4L3YBS+Z8dquPToIW15c0WqHBQ/+vncoPgIr\nck7af0aENz0IDHJNYZ+YoeleYurZSaRkkJ/Bkd15RTKTY+Wgm2rVkXzJ8GeAX9f+\nSHjLScj9awR1lPzoR4AjhLA7e+pOjshHp6WHMrilNRkw2UeKM2xDzPb7EFXfVfpj\n/fWOiOmPAgMBAAECggEABR8RMuYcd9wqqQO80EziBz8ukKzJ8ozGWoJgiIAvf/5D\noVsUADHMjU+nzuHeuV6fLxXx//QZ15EJ4u5fxrZFcizbvjjLRd66TorKDA7J23Z3\ns990tTKhohrypMFa/l3jf7vOFkF+rQ4SLVU9e0lu5WqW0SXcP2lzmrwCUrsx7qbY\nr5HgmiMF7vdqi2yt3eUnXt+8wY10DWP4vxOrugMs0qtAXq0xNQfPdkn0NPtA5F6P\n1y3iBh3fOCMmiUbCU16FAOaRfGXNkSGesJ5a2cqX+NcFMESMCQ0SEp98m/sPyUZe\nbFgx5yBeIGKiGjfwL80mtBrs6k65tm/G78DRmHQ3MQKBgQDzXEhAb/GjheKU3Q29\nM/uCBSYVmwgCCiPxQUs/8VD4wAejIqstEBBiHb3lmpzboJb7qcpsU84qa9UxBiiQ\nJH4Gf431vHIid6k2K11aqRq95SG/82P44IAHzu24iej8rF6r6031GF53nWsyU+ab\nksQJK+ocyB4u3b4jVTQWrJDevwKBgQDXkBv/troy4G8KUZOq+qF5yBwl94WhG8jt\nGWoQAfArf79HkdRC4DlD52vaiyM3ju89ELf6MU8kge5QelILLS1qrbOBVmhoviFV\nT2cNCv901zR9vyRa6qT0ro+d09rEkYSbCbaBylSU8DmsFkmGiu1kvcKm3Z3bnTho\nrPQEOfp5MQKBgQDXowKmjkrIAb929rTQ3PnUCOnpJRkgbYnRoXCjNRnxgH6D8BlL\ncbuCpSX6CFlLRu3iC15BRLUe47Phn7pblupQqb/JafScU/mM9TngNo1qjFiudGU2\nRv9La/E6noDjO30bywGl1rUGOmedDbj+SzsHgXENlckg7/0l476nBLvNkwKBgQCL\n1uYC/nROWwBN7lvgeFTWnvV7v9ZFjLPM9Ea0+bznSyk4cacEd1dO8Msr7EU9XpFe\nyQDA4soXwd5rAN9GdtlWsjaX+gkjoewX3rnYYUEVeCKKTLx16nB2duOeHHh4OnqO\n5T8rdalnMWwIcjDigi+8wcmL3IrylEyqw0BNmZsekQKBgHJI0nESR1UKpet1LYKh\n1kvalckrWY7IKzzXvgWoG6wC0bPdtmQJWHXV8uwUu2teKYWpKzGyqvAggPAqt17W\nLfbUiuS65UQ/mIjrHeV99R4wzIhFdIJoPDj0C+DAU4ztmrCBJ+SFy0/EBSgS+kUU\nJULMewx/n3zviNquwOieY6eO\n-----END PRIVATE KEY-----\n",
+  "client_email": "masterfun@masterfun.iam.gserviceaccount.com",
+  "client_id": "101847283824041022913",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/masterfun%40masterfun.iam.gserviceaccount.com"
+}
