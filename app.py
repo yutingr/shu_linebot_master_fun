@@ -50,7 +50,14 @@ def handle_message(event):
             GSpreadSheet = '流行語資料庫'
             while True:
                 try:
-                    scope = ['https://spreadsheets.google.com/feeds']
+
+                    # scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/drive']
+                    # creds = ServiceAccountCredentials.from_json_keyfile_name("./GoogleSheetTeach-WP-2c572cd3d8d0.json", scope)
+                    # client = gspread.authorize(creds)
+
+                    # spreadSheet = client.open("流行語資料庫")#或是可以用 add_worksheet("11月", 100, 100) 來新增
+
+                    scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
                     key = SAC.from_json_keyfile_name(GDriveJSON, scope)
                     gc = gspread.authorize(key)
                     worksheet = gc.open(GSpreadSheet).sheet1
